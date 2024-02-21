@@ -1,0 +1,27 @@
+body {  
+    background-color: beige; 
+     
+    div.hcontainer{
+        background-color: aliceblue;
+        width: 100%;
+        
+        border: 1px solid black;
+        text-align: center;
+     }
+    
+     div.maincontainer{
+        margin-top: 5px;
+        width: 100%;
+        overflow: auto;
+    }
+    div.maincontainer div{
+        width: 33%;
+        background-color: aliceblue;
+        border: 1px solid black;
+        float: left;
+    }
+    div.maincontainer div h2{
+        text-align: center;
+    }
+    
+}
